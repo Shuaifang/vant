@@ -258,6 +258,7 @@ export default createComponent({
           placeholder={t('namePlaceholder')}
           error={errorInfo.name}
           onFocus={onFocus('name')}
+          disabled
         />
         <Field
           vModel={data.tel}
@@ -267,6 +268,7 @@ export default createComponent({
           placeholder={t('telPlaceholder')}
           error={errorInfo.tel}
           onFocus={onFocus('tel')}
+          disabled
         />
         <Field
           vShow={this.showArea}
